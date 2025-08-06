@@ -16,6 +16,7 @@ SELECT * FROM read_csv_auto('data/limpio/ventas_limpias_{FECHA}.csv')
 """)
 con.close()
 
+print("✅ Pipeline ejecutado con éxito.")
 # Fecha inválida
 df['fecha'] = pd.to_datetime(df['fecha'], errors='coerce')
 errores.append(df[df['fecha'].isna()].assign(error='Fecha inválida'))
