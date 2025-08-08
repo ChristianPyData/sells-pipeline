@@ -7,9 +7,9 @@ FECHA = datetime.now().strftime("%Y%m%d")
 PATH = "./data/ventas.csv"
 
 df = pd.read_csv(PATH)
-errores = []
+errores =[]
 
-print("✅ Pipeline ejecutado con éxito.")
+print(" Pipeline ejecutado con éxito.")
 # Fecha inválida
 df['fecha'] = pd.to_datetime(df['fecha'], errors='coerce')
 errores.append(df[df['fecha'].isna()].assign(error='Fecha inválida'))
@@ -57,4 +57,5 @@ SELECT * FROM read_csv_auto('data/limpio/ventas_limpias_{FECHA}.csv')
 """)
 con.close()
 
-print("✅ Pipeline ejecutado con éxito.")
+print("Archivos creados correctamente.")
+
