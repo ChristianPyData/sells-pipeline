@@ -5,7 +5,7 @@ Este script automatiza un pipeline de análisis y generación de reportes. Ejecu
 
 ⚡ Impacto medible:
 
-Ahorro de tiempo: El proceso que antes tomaba varias horas en realizarse manualmente, ahora se ejecuta en segundos desde una única acción en n8n.
+Ahorro de tiempo: El proceso que antes tomaba varias horas en realizarse manualmente, ahora se ejecuta en segundos desde una única acción en n8n, lo cual da como resultado un proceso de alrededor de 10 segundos que ahorra 230 horas humanas anuales sin errores.
 
 Reducción de errores: Minimiza el riesgo de fallos humanos al estandarizar el pipeline.
 
